@@ -1,15 +1,23 @@
 {
   "name": "react-voice-handler",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight React hook for voice commands using the Web Speech API.",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react", "voice", "commands", "speech-recognition", "hook"],
+  "author": "NightDevilPT",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NightDevilPT/react-voice-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NightDevilPT/react-voice-handler/issues"
+  },
+  "homepage": "https://github.com/NightDevilPT/react-voice-handler#readme",
   "dependencies": {
     "react": "^18.3.1"
   },
