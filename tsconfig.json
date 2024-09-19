@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+	  "target": "es5", // Ensures compatibility with older environments
+	  "module": "esnext",
+	  "lib": ["dom", "es6", "es2017"],
+	  "declaration": true, // Generates .d.ts files
+	  "declarationDir": "./dist", // Puts declaration files in dist
+	  "outDir": "./dist", // Puts compiled files in dist
+	  "jsx": "react", // Enables JSX
+	  "moduleResolution": "node",
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "forceConsistentCasingInFileNames": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist"]
+  }
+  
