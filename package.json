@@ -1,13 +1,13 @@
 {
   "name": "react-voice-handler",
-  "version": "1.0.0",
-  "description": "A lightweight React hook for voice commands using the Web Speech API.",
+  "version": "1.1.0",
+  "description": "A lightweight React hook for voice commands using the Web Speech API with multi-language support and error handling.",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["react", "voice", "commands", "speech-recognition", "hook"],
+  "keywords": ["react", "voice", "commands", "speech-recognition", "hook", "multi-language", "error-handling"],
   "author": "NightDevilPT",
   "license": "ISC",
   "repository": {
